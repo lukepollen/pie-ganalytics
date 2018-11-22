@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul  1 15:15:56 2017
+
+@author: dulce-senorita
+"""
+
+def dataFrameSlice(dataFrame, sliceDict):
+    
+    for key in sliceDict.keys():
+        dataFrame = dataFrame[dataFrame[key] == sliceDict[key]]
+    return dataFrame
