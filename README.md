@@ -3,7 +3,19 @@
 # The Project
 Google Analytics in the Python environment, using the scientific stack for data exploration and visualisation. Up to seven dimensions of data can be drawn from the API, as opposed to two with the web UI, allowing for a deep analysis of the data, helping you make more money and / or further your plans for world domination. 
 
-# Preliminaries
+# Steps
+
+1. ) Create your Project in the Google API Console and retrieve your secrets.p12 file.
+2. ) Install Python with the scientific stack (numpy, pands and matplotlib) and these modules dependencies.
+3. ) Update the syntax of engine in the initialiseDataFrame function of dataFrameFunctions.py and in the analytics_ .py downloader files to locate your database.
+4. ) Change the details in def main() of print_profiles and the analytics_ .py files to your service account email and key file location (the secrets.p12)
+5. ) Run print_profiles and record the indices of the property, account and view; for the fourth view of the first account in your fourth profile record the indices 3, 0, 3
+6. ) Enter these indices in the get_first_profile function of the analytics_ downloaders. Run the downloaders after updating.
+7. ) Run the remaining python files to chart, e.g. source.py will chart user activites by your combinations of source, medium, country, region, etc.
+
+Happy insight gathering! 
+
+# Preliminary Setup
 
 The data analysis files will only function if you have created a Project in the Google API Console; a good tutorial to create a project can be found at https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py . Numpy, pandas, matplotlib and their dependencies are also required. I recommend the scientific distribution https://www.anaconda.com/download/ .
 
@@ -16,16 +28,6 @@ It is also necessary to supply the details of the database to write the pandas d
 # Abstract engine example
 engine = create_engine('dialect+driver://username:password@host:port/database')
 # Actual implementation example
-engine = create_engine('postgresql://postgres:ve7arut5zaDr@localhost:5432/analytics')
+engine = create_engine('postgresql://postgres:password@localhost:5432/analytics')
 
-# Steps
 
-1. ) Create your Project in the Google API Console and retrieve your secrets.p12 file.
-2. ) Install Python with the scientific stack (numpy, pands and matplotlib) and these modules dependencies.
-3. ) Update the syntax of engine in the initialiseDataFrame function of dataFrameFunctions.py and in the analytics_ .py downloader files to locate your database.
-4. ) Change the details in def main() of print_profiles and the analytics_ .py files to your service account email and key file location (the secrets.p12)
-5. ) Run print_profiles and record the indices of the property, account and view; for the fourth view of the first account in your fourth profile record the indices 3, 0, 3
-6. ) Enter these indices in the get_first_profile function of the analytics_ downloaders. Run the downloaders after updating.
-7. ) Run the remaining python files to chart, e.g. source.py will chart user activites by your combinations of source, medium, country, region, etc.
-
-Happy insight gathering! 
