@@ -6,9 +6,9 @@
 # The Project
 Google Analytics in the Python environment, using the scientific stack for data exploration and visualisation. Up to seven dimensions of data can be drawn from the API, as opposed to two with the web UI, allowing for a deep analysis of the data, helping you make more money and / or further your plans for world domination. 
 
-![python-google-analytics-traffic-by-channel](https://github.com/lukepollen/pie-ganalytics/blob/development/trafficSourcesVisualisation.PNG)
-![python-google-analytics-relative-volumes](https://github.com/lukepollen/pie-ganalytics/blob/development/worldwideTrafficTopCities.PNG)
-![python-google-analytics-sessions-by-country-region](https://github.com/lukepollen/pie-ganalytics/blob/development/worldwideTrafficTopCities.PNG)
+![python-google-analytics-worldwide-volumes](https://github.com/lukepollen/pie-ganalytics/blob/development/worldwideTrafficTopCities.PNG)
+![python-google-analytics-traffic-volume-relative](https://github.com/lukepollen/pie-ganalytics/blob/development/trafficVolumeComparison.PNG)
+
 
 # Steps
 
