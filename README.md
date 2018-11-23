@@ -1,7 +1,14 @@
 # pie-ganalytics
 
+![python google analytics adsense earnings by country](https://github.com/lukepollen/pie-ganalytics/blob/development/earningsByCountry.PNG)
+
+
 # The Project
 Google Analytics in the Python environment, using the scientific stack for data exploration and visualisation. Up to seven dimensions of data can be drawn from the API, as opposed to two with the web UI, allowing for a deep analysis of the data, helping you make more money and / or further your plans for world domination. 
+
+![python-google-analytics-traffic-by-channel](https://github.com/lukepollen/pie-ganalytics/blob/development/trafficSourcesVisualisation.PNG)
+![python-google-analytics-relative-volumes](https://github.com/lukepollen/ce203AssignmentTwo/blob/master/pacman-clone-luke-pollen-manhattan-distance.PNG)
+![python-google-analytics-sessions-by-country-region](https://github.com/lukepollen/ce203AssignmentTwo/blob/master/pacman-clone-luke-pollen-manhattan-distance.PNG)
 
 # Steps
 
