@@ -1,6 +1,6 @@
 # pie-ganalytics
 
-![python google analytics adsense earnings by country](https://github.com/lukepollen/pie-ganalytics/blob/development/earningsByCountry.PNG)
+![python google analytics adsense earnings by country](https://github.com/lukepollen/pie-ganalytics/blob/master/earningsByCountry.PNG)
 
 
 # The Project
